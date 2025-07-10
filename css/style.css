@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 300vh;
+}
+
+/* Global css */
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+li{
+    list-style: none;
+}
+
+
+.btn{
+    padding: 13px 30px;
+    border-radius: 5px;
+    border: 1px solid #DC780B;
+    background: #DC780B;
+    color: white;
+}
+.btn:hover{
+    background: white;
+    color: #DC780B;
+    cursor: pointer;
+}
+
+.sub-title{
+    text-align: center;
+    text-transform: uppercase;
+    color: #DC780B;
+    letter-spacing: 2px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 7px;
+    font-style: 32px;
+}
+
+
+
+
+
+
+.navbar{
+    height: 106px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.navbar__collection{
+    display: flex;
+    list-style: none;
+    gap: 41px;
+    flex: 1;
+}
+.navbar__link{
+    text-decoration: none;
+    color: #150C01;
+}
+.navbar__link:hover{
+    color: #DC780B;
+}
+
+.hero__wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.hero__image{
+    width: 55%;
+}
+.hero__context{
+    width: 45%;
+}
+
+.hero__title{
+    font-size: 45px;
+}
+
+.hero__desc{
+    color: #150C01;
+    margin: 42px 0 50px;
+}
+.hero__options{
+    display: flex;
+    gap: 30px;
+}
+
+.features{
+    margin-top: 106px;
+}
+
+
+.features__wrapper{
+    margin: 44px 0 33px;
+    display: flex;
+    text-align: center;
+    gap: 30px;
+}
+
+.features__title{
+    margin: 33px 0 15px;
+}
+
+.flex{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.about_img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.text{
+    text-align: left;
+    margin-top: 30px;
+}
+
+.menu__text{
+    text-align: center;
+    margin: 20px;
+}
+
+.menu{
+    margin-top: 120px;
+}
+
+.vegie{
+    margin-left: 10px;
+    margin-top: 20px;
+    display: flex;
+    gap: 130px;
+}
+
+.menu__btn{
+    margin-left: 10px;
+    display: flex;
+    width: 90px;
+    gap: 200px;
+}
+
+.menu__img{
+    border: 1px solid black;
+    border-radius: 80px 10px 20px;
+    width: 350px;
+    height: 480px;
+}
+
+.menu__flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.menu_btn{
+    margin: 0 auto;
+}
