@@ -131,8 +131,11 @@ li{
     align-items: center;
 }
 
-.about_img{
+.AboutUs_img{
     width: 100%;
+}
+
+.about_img{
     border-radius: 20px;
 }
 
