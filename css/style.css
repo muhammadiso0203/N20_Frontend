@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --bg-py: #f00;
+    --bg-sy: gray;
+    --size: 38px;
+    --radius: 0px;
+}
+
+.navbar{
+    height: 80px;
+    background: var(--bg-py);
+}
+.title{
+    color: var(--bg-py);
+    font-size: var(--size);
+}
+.btn{
+    background: var(--bg-py);
+    border-radius: var(--radius);
+    padding: 10px;
+    color: #fff;
+    border: none;
+    transition: .3s;
+}
+/* pseudo class */
+.btn:hover{
+    background: pink;
+    border-radius: 20px 0 20px 0;
+}
+.btn:active{
+    transform: scale(.95);
+}
+
+.desc{
+    font-size: 90px;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+    word-spacing: 30px;
+    letter-spacing: 5px;
+    /* text-decoration: line-through underline overline; */
+    line-height: 1.6;
+    text-align: center;
+
+    background: url("../assets/nature\ 001.jpg") no-repeat center/cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 500px;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.text{
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: 2px 2px 5px red;
+    color: #fff;
+}
+
+
+.rect{
+    width: 300px;
+    height: 300px;
+    background: pink;
+    margin: 40px auto;
+    transition: .5s;
+}
+.rect:hover{
+    transform: translateY(-20px) translateX(30px);
+    transform: rotate(180deg);
+    transform: rotateX(180deg) rotatey(180deg);
+    transform: scaleY(0.5);
+    transform: scale(2);
+    transform: skew(30deg);
+}
+
+
+.image{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .3s;
+}
+.image:hover img{
+    transform: scale(1.2) rotate(10deg);
+}
