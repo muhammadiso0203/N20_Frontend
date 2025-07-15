@@ -1,0 +1,39 @@
+.escape {
+    color: #fff;
+    position: absolute;
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-around;
+    gap: 500px;
+    font-size: 12px;
+
+    &__title {
+        margin-top: -5px;
+        font-size: 24px;
+    }
+
+    &__menu {
+            display: none;
+
+            div {
+                width: 30px;
+                height: 3px;
+                background: black;
+                margin: 3px 0;
+                border-radius: 4px;
+            }
+        }
+}
+
+@media (max-width: 990px) {
+    .escape {
+
+        .header {
+            display: none;
+        }
+
+        &__menu{
+            display: block;
+        }
+    }
+}

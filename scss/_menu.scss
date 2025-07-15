@@ -1,0 +1,10 @@
+.menu {
+    &__items {
+        margin: 15px;
+        display: flex;
+        gap: 110px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,30 @@
+.latest {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    &__post {
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+    }
+
+
+    &__p {
+        color: #fff;
+        margin-top: 30px;
+        margin-bottom: 31px;
+    }
+
+    &__btn {
+        color: #fff;
+        background-color: #dd783f;
+        width: 167px;
+        height: 44px;
+        border: none;
+        border-radius: 3px;
+    }
+}
