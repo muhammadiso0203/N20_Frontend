@@ -13,26 +13,27 @@
     }
 
     &__menu {
-            display: none;
+        display: none;
 
-            div {
-                width: 30px;
-                height: 3px;
-                background: black;
-                margin: 3px 0;
-                border-radius: 4px;
-            }
+        div {
+            width: 30px;
+            height: 3px;
+            background: black;
+            margin: 3px 0;
+            border-radius: 4px;
         }
+    }
 }
 
-@media (max-width: 990px) {
+@media (max-width:990px) {
     .escape {
+        padding: 0 16px;
 
-        .header {
+        &{
             display: none;
         }
 
-        &__menu{
+        &__menu {
             display: block;
         }
     }
