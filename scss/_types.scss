@@ -1,0 +1,36 @@
+.types{
+    margin-top: 73px;
+    &__wrapper{
+        max-width: 1100px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }
+    &__card{
+        height: 239px;
+        display: flex;
+        align-items: center;
+        border-radius: 22px;
+        border: none;
+        background: #F6F6F6;
+    }
+    &__img{
+        text-align: center;
+        width: 43%;
+    }
+    &__body{
+        width: 57%;
+        text-align: left;
+        h2{
+            font-weight: 700;
+            font-size: 36px;
+            margin: 0 0 9px;
+        }
+        p{
+            font-weight: 500;
+            font-size: 16px;
+            color: #8B8E99;
+        }
+    }
+}

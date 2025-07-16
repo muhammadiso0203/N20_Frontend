@@ -1,0 +1,22 @@
+.products{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.product {
+    margin-top: 70px;
+    width: 354px;
+    height: 239px;
+    display: flex;
+    align-items: center;
+    border-radius: 22px;
+    background-color: #f6f6f6;
+
+    &__content {
+        margin-left: 41px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+}
