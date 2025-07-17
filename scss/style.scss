@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.sign {
+    margin-top: 20px;
+    display: flex;
+    gap: 100px;
+    margin-left: 30px;
+    width: 850px;
+    height: 800px;
+
+   
+
+    &__name {
+        margin-top: 30px;
+        display: flex;
+        gap: 40px;
+    }
+
+    &__inp {
+        background-color: #f2f2f2;
+        border: none;
+        padding: 12px;
+        margin-top: 10px;
+        width: 380px;
+        height: 40px;
+    }
+
+    &__inp1 {
+        background-color: #f2f2f2;
+        ;
+        border: none;
+        padding: 12px;
+        margin-top: 10px;
+        width: 826px;
+        height: 40px;
+    }
+
+    &__phone {
+        margin-top: 30px;
+    }
+
+    &__btn {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        background: #488DEC;
+        background: linear-gradient(90deg, rgba(72, 141, 236, 1) 0%, rgba(116, 196, 59, 1) 100%);
+        color: white;
+        border: none;
+        width: 130px;
+        height: 50px;
+    }
+}
+
+#textarea {
+    border: none;
+    background-color: #f2f2f2;
+    padding: 12px;
+    width: 826px;
+    height: 300px;
+}
+
+
+.thead {
+    background-color: #36304a;
+    border-radius: 10px;
+    color: white;
+}
+
+table {
+    width: 900px;
+    border-radius: 10px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #36304a;
+    overflow: hidden;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
