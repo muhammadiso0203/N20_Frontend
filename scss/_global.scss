@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container,
+.container-lg{
+    max-width: 1432px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.container-lg{
+    max-width: 1627px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+li{
+    list-style: none;
+}
+input,
+button,
+select,
+textarea{
+    border: none;
+    outline: none;
+}

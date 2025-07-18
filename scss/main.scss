@@ -1,0 +1,18 @@
+@import "variables";
+@import "global";
+@import "mixin";
+
+
+
+// section
+@import "header";
+@import "hero";
+@import "natural";
+@import "about";
+@import "products";
+@import "users";
+
+
+body{
+    min-height: 500vh;
+}

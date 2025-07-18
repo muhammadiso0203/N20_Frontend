@@ -1,0 +1,33 @@
+.natural{
+    margin: 150px 0 190px;
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 36px;
+    }
+    &__item{
+        height: 367px;
+        padding: 54px;
+        display: flex;
+        align-items: center;
+        border-radius: 24px;
+        &:nth-child(1){
+            background: url("../assets/fruit1.png") no-repeat center/cover;
+        }
+        &:nth-child(2){
+            background: url("../assets/fruit2.png") no-repeat center/cover;
+        }
+    }
+}
+
+@media(max-width: 990px){
+    .natural{
+        margin: 80px 0;
+        &__wrapper{
+            grid-template-columns: 1fr;
+        }
+        &__item{
+            height: 250px;
+        }
+    }
+}

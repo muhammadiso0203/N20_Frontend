@@ -1,0 +1,129 @@
+
+
+.navbar{
+    height: 204px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    &__collection{
+        display: flex;
+        gap: 30px;
+    }
+    &__link{
+        font-size: 20px;
+        font-weight: bold;
+        color: $bg-py;
+    }
+    &__options{
+        display: flex;
+        gap: 18px;
+    }
+    &__search{
+        width: 376px;
+        height: 66px;
+        display: flex;
+        background: #FAFAFA;
+        border-radius: 50px;
+        overflow: hidden;
+        padding: 5px 6px;
+        input{
+            flex: 1;
+            background: transparent;
+            text-indent: 16px;
+            font-size: 20px;
+        }
+        div{
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            background: $bg-sy;
+        }
+    }
+    &__cart{
+        border: 1px solid #ddd;
+        display: flex;
+        align-items:center;
+        gap: 12px;
+        padding: 5px 6px;
+        border-radius: 50px;
+        div{
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            background: $bg-py;
+            img{
+                transform: translate(-2px, 1px);
+            }
+        }
+        span{
+            font-weight: bold;
+            color: $bg-py;
+            display: inline-block;
+            padding-right: 17px;
+            text-wrap: nowrap;
+        }
+    }
+    &__menu{
+         width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            background: $bg-py;
+            color: #fff;
+            display: none;
+    }
+}
+
+@media(max-width: 1550px){
+    .navbar{
+        height: 150px;
+    }
+}
+
+
+
+@media (max-width:1300px) {
+    .navbar{
+         &__search{
+            width: 66px;
+            input{
+                display: none;
+            }
+         }
+    }
+}
+@media (max-width:1050px) {
+    .navbar{
+         &__collection,
+         &__cart{
+            display: none;
+         }
+         &__options{
+            align-items:center;
+         }
+         &__menu{
+            display: grid;
+         }
+    }
+}
+
+@media (max-width:500px) {
+    .navbar{
+        height: 140px;
+        &__search{
+            display: none;
+        }
+         &__logo{
+            img{
+                width: 150px;
+            }
+         }
+        
+    }
+}

@@ -1,0 +1,169 @@
+.about {
+    width: 1920px;
+    background-color: #f9f8f8;
+
+    &__wrapper {
+        margin-left: 30px;
+        width: 1568px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__title {
+        width: 50%;
+
+    }
+
+    h1 {
+        color: $bg-py;
+        font-size: 50px;
+        margin: 8px 0 14px 0;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    &__icon {
+        display: flex;
+        gap: 19px;
+        align-items: center;
+        margin-top: 46px;
+    }
+
+    &__icon1 {
+        display: flex;
+        gap: 19px;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    button {
+        margin-top: 46px;
+        align-items: center;
+        @include btn($bg-py);
+        display: flex;
+        gap: 6px;
+
+    }
+
+
+}
+
+@media(max-width: 1300px) {
+    .about {
+        width: 1275px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        &__wrapper {
+            width: 1150px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        &__title {
+            h1 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+
+}
+
+@media(max-width: 900px) {
+    .about {
+        width: 880px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        &__wrapper {
+            width: 850px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        &__title {
+            h1 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .about {
+        width: 535px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+
+        &__wrapper {
+            width: 400px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__title {
+            h1 {
+                font-size: 10px;
+            }
+
+            p {
+                font-size: 5px;
+            }
+        }
+
+        &__icon {
+            div {
+                h2 {
+                    font-size: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+            img{
+                width: 50px;
+                height: 50px;
+            }
+        }
+        &__icon1 {
+            div {
+                h2 {
+                    font-size: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+            img{
+                width: 50px;
+                height: 50px;
+            }
+        }
+
+        button {
+            width: 100px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            font-size: 12px;
+
+            .btn {
+                display: flex;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.hero {
+    height: 898px;
+    width: 100%;
+    background: url("../assets/hero.png") no-repeat center/cover;
+    display: flex;
+    align-items: center;
+
+    &__wrapper {
+        max-width: 530px;
+        width: 100%;
+
+        p {
+            color: $bg-sy;
+            font-size: 30px;
+        }
+
+        h1 {
+            font-size: 70px;
+            color: $bg-py;
+            margin: 8px 0 23px;
+        }
+        button{
+            @include btn($bg-gold, $bg-py);
+        }
+    }
+}
+
+@media (max-width: 990px) {
+    .hero {
+        height: 600px;
+
+        p {
+            font-size: 24px;
+        }
+
+        h1 {
+            font-size: 55px;
+        }
+    }
+}
+
+@media(max-width: 600px) {
+    .hero {
+        height: 400px;
+        background-position: 60%;
+
+        p {
+            font-size: 18px;
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+    }
+}
