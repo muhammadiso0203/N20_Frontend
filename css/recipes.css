@@ -22,7 +22,7 @@ li {
     display: flex;
     align-items: center;
     border-radius: 20px;
-    justify-content: space-between;
+    justify-content: space-around;
     box-shadow: 0 0 12px 12px rgba(0, 0, 0, 0.15);
 
 }
