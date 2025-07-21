@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-text {
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-between;
+    box-shadow: 0 0 12px 12px rgba(0, 0, 0, 0.15);
+
+}
+
+.header-text a {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+
+.card {
+    background-color: #ddd;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+.recipe_title {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.seBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+.hamburger div {
+    width: 30px;
+    height: 3px;
+    background: black;
+    margin: 3px 0;
+    border-radius: 4px;
+}
+
+.btn {
+    font-size: 15px;
+    margin-top: 40px;
+    width: 300px;
+    height: 40px;
+    background-color: rgba(80, 80, 243, 0.959);
+    border-radius: 6px;
+    color: white;
+    border: none;
+    text-align: center;
+}
+
+.loader {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+        radial-gradient(farthest-side, #ffa516 94%, #0000) top/8px 8px no-repeat,
+        conic-gradient(#0000 30%, #ffa516);
+    -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
+    animation: l13 1s infinite linear;
+}
+
+@keyframes l13 {
+    100% {
+        transform: rotate(1turn)
+    }
+}
+
+@media (max-width: 980px) {
+    .header-text {
+        width: 100%;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+@media (max-width: 1000px) {
+    .header-text a {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        display: block;
+    }
+}
+
+@media (max-width: 1224px) {
+    .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 650px) {
+    .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+}
