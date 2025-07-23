@@ -1,0 +1,41 @@
+.dataSciense {
+    background-color: black;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        padding: 120px;
+    }
+
+    &__img {
+        margin-top: 130px;
+        max-width: 100%;
+        max-height: 100%;
+        transform: translateX(-90px);
+    }
+
+    &__title {
+        margin-top: 150px;
+        color: white;
+        width: 484px;
+        height: 314px;
+
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            margin-top: 30px;
+        }
+    }
+
+    &__btn {
+        font-size: 16px;
+        color: white;
+        background-color: #3A68B8;
+        border: none;
+        border-radius: 5px;
+        margin-top: 40px;
+        width: 150px;
+        height: 52px;
+    }
+}

@@ -1,0 +1,26 @@
+.header{
+    background-color: #0a111f;
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+       
+    }
+    &__ul{
+        display: flex;
+        gap: 40px;
+         li{
+            list-style: none;
+            color: #ffffff;
+        }
+    }
+    &__btn{
+        width: 112px;
+        height: 52px;
+        background-color: #3A68B8;
+        color: white;
+        border-radius: 5px;
+        border: none;
+    }
+}

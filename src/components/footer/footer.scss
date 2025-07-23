@@ -1,0 +1,109 @@
+.footer {
+    background-color: #070f1c;
+    color: white;
+    padding: 100px 0 148px 0; 
+
+    &__rapper {
+        display: flex;
+        gap: 60px;
+    }
+
+    &__wrapper {
+        width: 300px;
+
+        h1 {
+            margin-top: 7px;
+            color: blue;
+            font-size: 16px;
+        }
+
+        h4 {
+            margin-top: 10px;
+        }
+
+    }
+
+    &__email {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        p {
+            margin-top: 37px;
+        }
+    }
+
+    &__telephone {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        p {
+            margin-top: 37px;
+        }
+    }
+
+    &__location {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        p {
+            margin-top: 37px;
+        }
+    }
+
+    &__information {
+        h1 {
+            font-size: 16px;
+        }
+
+        p {
+            margin-top: 32px;
+        }
+    }
+
+    &__menu {
+        h1 {
+            font-size: 16px;
+        }
+
+        p {
+            margin-top: 32px;
+        }
+    }
+
+    &__links {
+        h1 {
+            font-size: 16px;
+        }
+
+        p {
+            margin-top: 32px;
+        }
+    }
+
+    &__store{
+        width: 200px;
+        h1{
+            font-size: 16px;
+        }
+    }
+    &__p{
+        margin-top: 29px;
+    }
+    &__pp{
+        margin-top: 32px;
+    }
+    &__icon{
+        gap: 25px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+    }
+    &__english{
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+    }
+}

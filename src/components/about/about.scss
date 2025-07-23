@@ -1,0 +1,25 @@
+.about{
+    background-color: black;
+    padding-bottom: 170px;
+    &__wrapper{
+        position: relative;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+    &__content{
+        position: absolute;
+        width: 50%;
+        h1{
+            font-size: 40px;
+        }
+        p{
+            margin-top: 40px;
+        }
+    }
+    &__img{
+        margin-left: 400px;
+        width: 642px;
+        height: 551px;
+    }
+}
